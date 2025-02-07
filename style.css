@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 768px) {
+    .card {
+        width: 100%;
+        flex-direction: column;
+        border-radius: 2%;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .right {
+        margin-top: 10%;
+        text-align: center;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    margin: 15%;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: #2A2C3C;
+}
+
+.left {
+    color: white;
+}
+
+img {
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+.right {
+    background-color: white;
+    padding-top: 15%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 15%;
+    margin-bottom: 10%;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+.short-bio {
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+.location {
+    margin-top: 5%;
+}
+
+.location, .email {
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
